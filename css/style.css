@@ -1,0 +1,260 @@
+*{
+    padding: 0px;
+    margin:0px;
+    
+}
+
+.container{
+    
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+header{
+    
+    width: 100%;
+    float: left;
+    top: 0;
+    height: 150px;
+}
+
+.logo-part{
+    
+    width: 30%;
+    float: left;
+    background-color:#c52a2a;
+    height: 150px;
+}
+
+.logo-part img{
+    
+    display:block;
+     width: 160px;
+    height: 120px;
+    margin-top:18px;
+    margin-left:90px;
+    
+}
+.side-part{
+    width: 70%;
+    float: left;
+    background-color: #ff450073;
+    height: 150px;
+    
+    
+}
+nav ul li {
+    
+    list-style: none;
+    display:inline-block;
+    margin: 55px 30px;
+}
+nav  ul li a{
+    
+    text-decoration:none;
+    background-color:floralwhite;
+    color:black;
+    padding:12px;
+}
+
+nav  ul li a:hover{
+    /*box-shadow: 5px 5px blue;*/
+    padding: 5px 8px;
+    transform: scale(8.5);
+    
+    
+}
+.first-part{
+     width: 100%;
+    float: left;
+}
+.part-1{
+    width: 100%;
+    float: left;
+    margin-top:2px;
+    background: url(../img/logo.jpg);
+    height: 550px;
+}
+.second-part{
+    width: 100%;
+    float: left;
+}
+.part-2{
+    width: 50%;
+    float: left;
+    margin-top:2px;
+    background: url(../img/food.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.part-3{
+    width: 50%;
+    float: left;
+    margin-top:2px;
+    background-color: floralwhite;
+    height: 600px;
+    
+    
+}
+.part-3 h2{
+    
+    text-align: center;
+    color:#c55d37;
+    margin-top:100px;
+    font-size:80px;
+}
+
+
+.part-3 h3{
+    text-align: center;
+    color:#c55d37;
+    font-size:80px;
+    
+}
+
+.Button-one{
+padding:20px 30px;
+background-color:aliceblue;
+margin-left:200px;
+margin-top:80px;
+}
+.third-part{
+    
+     width: 100%;
+    float: left;
+}
+.part-4{
+    width: 50%;
+    float: left;
+    background-color: floralwhite;
+    height: 600px;
+    margin-top:2px;
+    
+} 
+.part-4 h2{
+    text-align: center;
+    color:#c55d37;
+    margin-top:100px;
+    font-size:80px;
+}
+.part-4 h3{
+    
+    text-align: center;
+    color:#c55d37;
+    font-size:80px;
+}
+.Button-two{
+    
+   padding:20px 30px;
+background-color:aliceblue;
+margin-left:200px;
+margin-top:80px; 
+    
+    
+}
+.part-5{
+    width: 50%;
+    float: left;
+    background: url(../img/chef.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top:2px;
+}
+.fourth-part{
+    width: 100%;
+    float: left;
+}
+.part-6{
+     width: 50%;
+    float: left;
+    background: url(../img/chair-cutlery-diner-dining-941861.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top:2px;
+    
+}
+.part-7{
+     width: 50%;
+    float: left;
+    background-color: floralwhite;
+    height: 600px;
+    margin-top:2px;
+    
+    
+}
+
+.part-7 h2{
+    text-align: center;
+    color:#c55d37;
+    margin-top:100px;
+    font-size:80px;
+}
+.part-7 h3{
+    
+    text-align: center;
+    color:#c55d37;
+    font-size:80px;
+}
+.Button-three{
+padding:20px 30px;
+background-color:aliceblue;
+margin-left:200px;
+margin-top:50px; 
+}
+footer{
+    margin-top:10px;
+    padding:30px 0px;
+    width: 100%;
+    float: left;
+    background-color: maroon;
+}
+
+.social-icon ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top:2px;
+    margin-left:30px;
+}
+
+.fa.fa-facebook{
+    background-color:white;
+    color:maroon;
+    padding: 6px 20px;
+}
+.fa.fa-instagram{
+    background-color:white;
+    color:maroon;
+    padding: 6px 20px; 
+}
+.fa.fa-youtube{
+    background-color:white;
+    color:maroon;
+    padding: 6px 20px;
+    
+}
+.fa.fa-facebook:hover{
+    background-color:#3b5998;
+    padding:7px 25px;
+    transform:scale(1.5);
+}
+.fa.fa-instagram:hover{
+    background-color:#e42d6b;
+    padding:7px 25px;
+    transform:scale(1.5);
+
+}
+
+.fa.fa-youtube:hover{
+    background-color:black;
+    padding:7px 25px;
+    transform:scale(1.5);
+}
+.social-icon p{
+    float:right;
+    font-size:16px;
+    color:white;
+    
+}
